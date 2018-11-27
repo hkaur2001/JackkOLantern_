@@ -5,7 +5,7 @@ public class JackOlanternRunner{
         String[][] face = new String[5][8];
         Jackolantern face1 = new Jackolantern(face);
 
-        face1.fill("X");
+        face1.fill("*");
         face1.edit(" ", 0, 0);
         face1.edit(" ", 4, 7);
         face1.edit(" ", 0, 7);
